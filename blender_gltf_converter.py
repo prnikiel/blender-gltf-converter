@@ -3,6 +3,9 @@ Run from the terminal:
 blender -b -P blender_gltf_converter.py -- -mp "path-to-file"
 
 If you're not in the same directory as the blender_gltf_converter.py file, provide full path to it.
+The "-b" flag runs Blender in headless mode.
+If you wish to see the UI after the script is done processing, skip it.
+The "-P" flag allows to pass script to Blender.
 """
 
 
